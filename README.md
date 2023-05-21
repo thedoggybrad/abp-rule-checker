@@ -1,2 +1,2 @@
 # Adblock Plus (ABP) rule checker
-Rule check for Adblock filter. Mirror of https://arestwo.org/famlam/redundantRuleChecker.html (might be disappear soon). Now avaiable at https://abpvn.com/ruleChecker/redundantRuleChecker.html
+Rule check for Adblock filter. Now avaiable at https://thedoggybrad.github.io/abp-rule-checker/
