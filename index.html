@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self';" />
     <meta name="viewport" content=<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redundancy check</title>
+    <title>AdBlock Filters - Redundancy check</title>
     <link rel="stylesheet" href="redundantRuleChecker.css" />
     <script type="text/javascript" src="redundantRuleChecker.js" defer="defer"></script>
   </head>
@@ -13,7 +13,7 @@
     <div id='helplink'>[<a href="#" title="Information">information</a>]</div>
     <h3>Redundancy check for Adblock Plus rules</h3>
     <p id="topmsg">This script checks if there are any redundant rules in your Adblock Plus filter list. A rule is redundant if the content it blocks, hides or excludes is also blocked, hidden or excluded by another rule.<br/>For example, <em>||somesite.com/ads/</em> has been made redundant by <em>/ads/*</em>. All calculations are performed on your computer, no data is send to the server.</p>
-    <textarea cols="120" rows="20" id="filters" placeholder="Paste the rules here" spellcheck="false"></textarea>
+    <textarea cols="120" rows="20" id="filters" placeholder="Paste the rules here" spellcheck="false"></textarea><br>
     <input id="btnstart" type="button" disabled="disabled" value="Check for redundant rules"/>
     <progress value="0" id="percent" max="100" class="hidden"></progress>
     <span id="progressindicator" class="hidden"></span>
@@ -22,10 +22,10 @@
       <div id="tab_contents"></div>
     </div>
     <div id="information" class="hidden">
-      <strong>Redundancy check information</strong><br/>
+      <strong>AdBlock Filters - Redundancy Check</strong><br/>
       <ul>
-        <li>Author: Famlam</li>
-        <li>Fork Copy of: TheDoggyBrad</li>
+        <li>Original Author: Famlam</li>
+        <li>This Fork's Administrator: TheDoggyBrad</li>
         <li>Contributor: ABPVN (<a href="https://abpvn.com" target="_blank">https://abpvn.com</a>)</li>
         <li>Contact: <a href="https://forums.lanik.us/viewtopic.php?f=23&amp;t=9041" title="forums.lanik.us" target="_blank">EasyList forum</a> or <em>fam.lam [at] live.nl</em></li>
         <li>Changelog: can be found <a href="changelog.html" title="Changelog" target="_blank">here</a></li>
